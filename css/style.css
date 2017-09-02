@@ -1,0 +1,129 @@
+html, body{
+			margin: 0 auto;
+			padding: 0;
+			}
+.menu-left nav{
+	padding: 0;
+	margin: 0px;
+	list-style: none;
+	float: left;}
+
+.menu-left nav{
+	display: block;
+	padding: 0;
+	margin-top: 10px;
+
+	}
+
+.menu-left nav a{
+	margin-top: 10px;
+	width: 160px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #09F;
+	color: #FFF;
+
+}
+.menu-left nav a:hover{
+	background-color: #06C;
+}
+.menu-left nav:first-child a{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.menu-left nav:first-child a{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+#header{
+	display: block;
+	padding: 0;
+	margin: 0px;
+	}
+#header #banner{
+	margin: 0px;
+	padding: 10px;
+	background: #FC6;
+	width: 900px;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.container{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 940px
+}
+.contents{
+	display:block;
+	width:900px;
+	margin:10px 0 0 0;
+	min-height:auto;
+	padding:10px;
+	border-radius:6px;
+	background-color:#CCC;
+	float:left;
+	}
+.footer{
+	display: block;
+	margin: 3px 0 0 0;
+	width: 920px;
+	min-height: 70px;
+	border-radius: 6px;
+	background-color: #395fa4;
+	align-content: center;
+
+}
+#main {
+ 	background-image: url(../images/bg/main.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+ 	background-color: #f7f7f7;
+}
+#main.home-default {
+	padding-bottom:0;}
+body {
+	font-family: 'Times New Roman', sans-serif;
+	font-weight:400; 
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Times New Roman', sans-serif;
+	font-weight:normal;
+}
+ul {
+	margin:0;
+	padding:0;
+    list-style:none;
+}
+a {
+	font-family: 'Khmer OS Battambang', sans-serif;
+	color: #00a651;
+}
+p{
+	font-family: 'Khmer OS Battambang', sans-serif;
+}
+
+
+img {
+	max-width: 100%;
+}
+h1{
+	color: #ffffff;
+	font-size: 100px;
+}
+
+/*nav {
+	background-color: #395fa4;
+	width: 920px;
+	height: 50px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 6px;
+}*/
